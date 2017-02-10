@@ -1,18 +1,56 @@
 body {
-    background-color: #3E38F2;
+    background-color: #1C1F26;
+    color: #ffffff;
+}
+
+.container {
+    background-color: #74888C;
+    width: 800px;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 0 auto 0 auto
+}
+
+h1, h2 {
+    font-family: 'Della Respira', serif;
+}
+
+header {
+    background: ground -color #3088F74
+}
+
+.main-content {
+    background-color: #BFA18F;
+}
+
+
+/* for main nav */
+
+li {
+    padding: 0;
+    margin: 0;
+    text-indent: 0;
+    display: inline;
 }
 
 .red-box {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    padding: 10px 10px 10px 10px;
+    width: 50%;
+    /*height:200px;*/
+    /*background-color: red;*/
+    /*padding: 10px;*/
+    float: left;
 }
 
 .blue-box {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 0 0 0;
+    width: 50%;
+    /*height: 200px;*/
+    /*background-color: blue;*/
+    /*padding :10px;*/
+    margin: 0 0 0 0;
+    float: right;
+}
+
+footer {
+    border-top: 3px solid red;
+    clear: both;
 }
